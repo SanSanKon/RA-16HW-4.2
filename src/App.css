@@ -1,0 +1,80 @@
+body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#root {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.app-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.add-record-wrapper {
+  display: flex;
+  margin: 0 0 1rem;
+  width: 50%;
+}
+
+.add-record {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px 0 0;
+  width: 50%;
+}
+
+.date-input {
+  padding: 2px 4px;
+}
+
+.distance-input {
+  padding: 3px 6px;
+}
+
+.add-record-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.add-record-button button {
+  padding: 3px 6px;
+}
+
+.records-list {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.titles {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 0.5rem;
+  width: 100%;
+}
+
+.titles span {
+  margin: 0 1rem 0 0;
+}
+
+.record {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 0.5rem;
+  width: 100%;
+}
+
+.record span {
+  margin: 0 1rem 0 0;
+}
